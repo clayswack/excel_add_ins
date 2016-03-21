@@ -1,0 +1,45 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "mwcomtypes.idl";
+
+[
+  object,
+  uuid("C7FDE8D1-7C27-4593-854E-818CA7B98358"),
+  dual,
+  helpstring("IClass1 Interface"),
+  pointer_default(unique)
+]
+interface IClass1 : IDispatch
+{
+  [propget, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([out, retval] IMWFlags** ppvFlags);
+  [propput, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([in] IMWFlags* pvFlags);
+
+  [id(2), helpstring("Method anova")]
+  HRESULT anova([in] VARIANT x);
+
+  [propget, id(3), helpstring("property help")]
+  HRESULT help([in] BSTR funcname, [out, retval] BSTR* helptext);
+
+};
+[
+  uuid("CCFC7797-178C-45CC-8734-B98BD793099E"),
+  version(1.0),
+  helpstring("anova 1.0 Type Library")
+]
+library anova
+{
+  importlib("stdole32.tlb");
+  importlib("stdole2.tlb");
+  importlib("mwcomutil.tlb");
+
+  [
+    uuid("9CA3766D-E60D-4FAB-8DB1-03433CDE275E"),
+    helpstring("Class1 Class")
+  ]
+  coclass Class1
+  {
+    [default] interface IClass1;
+  };
+};

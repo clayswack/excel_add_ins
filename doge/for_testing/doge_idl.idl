@@ -1,0 +1,45 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "mwcomtypes.idl";
+
+[
+  object,
+  uuid("86588888-F9B2-4D3B-B001-9F2D97EDC98A"),
+  dual,
+  helpstring("IClass1 Interface"),
+  pointer_default(unique)
+]
+interface IClass1 : IDispatch
+{
+  [propget, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([out, retval] IMWFlags** ppvFlags);
+  [propput, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([in] IMWFlags* pvFlags);
+
+  [id(2), helpstring("Method doge")]
+  HRESULT doge();
+
+  [propget, id(3), helpstring("property help")]
+  HRESULT help([in] BSTR funcname, [out, retval] BSTR* helptext);
+
+};
+[
+  uuid("6991E8FD-7E62-44DA-AF7A-C2AD4F5E2443"),
+  version(1.0),
+  helpstring("doge 1.0 Type Library")
+]
+library doge
+{
+  importlib("stdole32.tlb");
+  importlib("stdole2.tlb");
+  importlib("mwcomutil.tlb");
+
+  [
+    uuid("2E3D9C75-F553-4959-925D-07D5C0F69013"),
+    helpstring("Class1 Class")
+  ]
+  coclass Class1
+  {
+    [default] interface IClass1;
+  };
+};
