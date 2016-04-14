@@ -1,0 +1,45 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "mwcomtypes.idl";
+
+[
+  object,
+  uuid("B54A1F15-CCD5-4C6B-AA30-69F2BE0CEC65"),
+  dual,
+  helpstring("IClass1 Interface"),
+  pointer_default(unique)
+]
+interface IClass1 : IDispatch
+{
+  [propget, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([out, retval] IMWFlags** ppvFlags);
+  [propput, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([in] IMWFlags* pvFlags);
+
+  [id(2), helpstring("Method manualint")]
+  HRESULT manualint([in] VARIANT x, [in] VARIANT y, [in] VARIANT s, [in] VARIANT e);
+
+  [propget, id(3), helpstring("property help")]
+  HRESULT help([in] BSTR funcname, [out, retval] BSTR* helptext);
+
+};
+[
+  uuid("948AB939-5EF0-468E-B6DB-EC716C7E7440"),
+  version(1.0),
+  helpstring("manualint 1.0 Type Library")
+]
+library manualint
+{
+  importlib("stdole32.tlb");
+  importlib("stdole2.tlb");
+  importlib("mwcomutil.tlb");
+
+  [
+    uuid("36DFDE34-C0F3-4B0A-91F5-973D2BD007EF"),
+    helpstring("Class1 Class")
+  ]
+  coclass Class1
+  {
+    [default] interface IClass1;
+  };
+};

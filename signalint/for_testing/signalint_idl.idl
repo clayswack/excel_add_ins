@@ -1,0 +1,45 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "mwcomtypes.idl";
+
+[
+  object,
+  uuid("871780C9-4572-4D93-BF88-33A9AC9560EF"),
+  dual,
+  helpstring("IClass1 Interface"),
+  pointer_default(unique)
+]
+interface IClass1 : IDispatch
+{
+  [propget, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([out, retval] IMWFlags** ppvFlags);
+  [propput, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([in] IMWFlags* pvFlags);
+
+  [id(2), helpstring("Method signalint")]
+  HRESULT signalint([in] VARIANT x, [in] VARIANT y);
+
+  [propget, id(3), helpstring("property help")]
+  HRESULT help([in] BSTR funcname, [out, retval] BSTR* helptext);
+
+};
+[
+  uuid("D7AE5D20-D541-40A9-9941-A7DB4C90B016"),
+  version(1.0),
+  helpstring("signalint 1.0 Type Library")
+]
+library signalint
+{
+  importlib("stdole32.tlb");
+  importlib("stdole2.tlb");
+  importlib("mwcomutil.tlb");
+
+  [
+    uuid("12AAC7DE-AF78-4E7B-9991-C8B831553F9F"),
+    helpstring("Class1 Class")
+  ]
+  coclass Class1
+  {
+    [default] interface IClass1;
+  };
+};
