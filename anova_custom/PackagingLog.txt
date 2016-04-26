@@ -1,0 +1,255 @@
+mcc -W 'excel:anova_custom,Class1,1.0' -T link:lib -b -d 'C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing' -v 'class{Class1:C:\Users\Cole Swackhamer\Documents\MATLAB\ANOVA FILES\anova_custom.m}' 
+Compiler version: 6.1 (R2015b)
+
+Dependency analysis by REQUIREMENTS.
+
+Warning: Component "anova_custom_1_0" will be registered for the current user only. 
+Applications that run with full administrative privileges cannot access the component. 
+To register the component for all users, run MATLAB or the mcc command as Administrator.
+[Warning: Adding path "C:\Users\Cole Swackhamer\Documents\MATLAB\ANOVA FILES" to
+Compiler path instance.] 
+[] 
+Parsing file "C:\Users\Cole Swackhamer\Documents\MATLAB\ANOVA FILES\anova_custom.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_idl.idl".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\Class1_com.hpp".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\Class1_com.cpp".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_dll.cpp".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.def".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.rc".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.bas".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.xla".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\readme.txt".
+Executing command: ""C:\Program Files\MATLAB\R2015b\bin\mbuild"  -client mbuild_com OUTDIR"=""C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing""" -O -v -output "anova_custom_1_0" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing"  COMIDL"=""C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_idl.idl""" "mclxlmain.lib" "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\Class1_com.cpp" "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_dll.cpp"  DEFFILE"=""C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.def"""  RCFILE"=""C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.rc""" RESFILE"=""C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.res""" CMDLINE275"=""""$MATLABROOT\runtime\$ARCH\mwregsvr.exe"" /useronly $EXE""" LINKFLAGS"=""$LINKFLAGS delayimp.lib /delayload:mclmcrrt9_0.dll""" -outdir "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing""Verbose mode is on.
+No MEX options file identified; looking for an implicit selection.
+... Looking for compiler 'Intel C++ Composer XE 2011 with Microsoft SDK 7.1' ...
+... Looking for environment variable 'ICPP_COMPILER12' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2011 with Microsoft SDK 7.1'.
+... Looking for compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2008' ...
+... Looking for environment variable 'ICPP_COMPILER12' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2008'.
+... Looking for compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2010 ' ...
+... Looking for environment variable 'ICPP_COMPILER12' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2010 '.
+... Looking for compiler 'Intel C++ Composer XE 2013 with Microsoft SDK 7.1' ...
+... Looking for environment variable 'ICPP_COMPILER14' ...No.
+... Looking for environment variable 'ICPP_COMPILER13' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2013 with Microsoft SDK 7.1'.
+... Looking for compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2010' ...
+... Looking for environment variable 'ICPP_COMPILER14' ...No.
+... Looking for environment variable 'ICPP_COMPILER13' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2010'.
+... Looking for compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2012' ...
+... Looking for environment variable 'ICPP_COMPILER14' ...No.
+... Looking for environment variable 'ICPP_COMPILER13' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2012'.
+... Looking for compiler 'MinGW64 Compiler (C++)' ...
+... Looking for environment variable 'MW_MINGW64_LOC' ...Yes ('C:\TDM-GCC-64').
+... Looking for file 'C:\TDM-GCC-64\bin\g++.exe' ...Yes.
+... Looking for folder 'C:\TDM-GCC-64\' ...Yes.
+Found installed compiler 'MinGW64 Compiler (C++)'.
+... Looking for compiler 'Microsoft Visual C++ 2008' ...
+... Looking for environment variable 'VS90COMNTOOLS' ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2008'.
+... Looking for compiler 'Microsoft Visual C++ 2010' ...
+... Looking for environment variable 'VS100COMNTOOLS' ...Yes ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\').
+... Looking for file 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\amd64\cl.exe' ...Yes.
+... Looking for folder 'c:\Program Files (x86)\Microsoft Visual Studio 10.0' ...Yes.
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A' InstallationFolder ...Yes ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\').
+... Looking for environment variable 'VS100COMNTOOLS' ...Yes ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\').
+... Looking for file 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe' ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2010'.
+... Looking for compiler 'Microsoft Visual C++ 2012' ...
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+... Looking for registry setting 'HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2012'.
+... Looking for compiler 'Microsoft Visual C++ 2013 Professional' ...
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 12.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 12.0 ...No.
+... Looking for registry setting 'HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 12.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 12.0 ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2013 Professional'.
+... Looking for compiler 'Microsoft Visual C++ 2015 Professional' ...
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 14.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 14.0 ...No.
+... Looking for registry setting 'HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 14.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 14.0 ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2015 Professional'.
+... Looking for compiler 'Microsoft Windows SDK 7.1 (C++)' ...
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.1' InstallationFolder ...Yes ('C:\Program Files\Microsoft SDKs\Windows\v7.1\').
+... Looking for registry setting 'HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VC7' 10.0 ...Yes ('C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\').
+... Looking for file 'C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\amd64\cl.exe' ...Yes.
+... Looking for folder 'C:\Program Files (x86)\Microsoft Visual Studio 10.0' ...Yes.
+Found installed compiler 'Microsoft Windows SDK 7.1 (C++)'.
+Set PATH = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Bin\amd64;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Bin\VCPackages;C:\Program Files\Microsoft SDKs\Windows\v7.1\\Bin\x64;C:\Program Files\Microsoft SDKs\Windows\v7.1\\Bin;;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\MATLAB Runtime\v90\runtime\win64;C:\TDM-GCC-64\bin;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\
+Set INCLUDE = C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE;C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE;C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\gl;C:\Program Files\MATLAB\R2015b\extern\include;;
+Set LIB = C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Lib\amd64;C:\Program Files\Microsoft SDKs\Windows\v7.1\\Lib\X64;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\ATLMFC\LIB\AMD64;C:\Program Files\MATLAB\R2015b\lib\win64;C:\Program Files\MATLAB\R2015b\extern\lib\win64;
+Set LIBPATH = C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Lib\amd64;C:\Program Files\Microsoft SDKs\Windows\v7.1\\LIB\X64;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\ATLMFC\LIB\AMD64;C:\Program Files\MATLAB\R2015b\extern\lib\win64;
+Options file details
+-------------------------------------------------------------------
+	Compiler location: C:\Program Files (x86)\Microsoft Visual Studio 10.0
+	Options file: C:\Program Files\MATLAB\R2015b\bin\win64\mexopts\winsdk-7.1_cpp.xml
+	CMDLINE200 : link /nologo /manifest delayimp.lib /delayload:mclmcrrt9_0.dll   /DLL /def:"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.def" C:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\Class1_com.obj C:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\anova_custom_dll.obj  mclxlmain.lib  /MACHINE:AMD64 /LIBPATH:"C:\Program Files\MATLAB\R2015b\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mclmcrrt.lib "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.res" /out:"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll"
+	CMDLINE250 : mt -outputresource:"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll";2 -manifest "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll.manifest"
+	CMDLINE300 : del "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll.manifest" mwcomutil.tlb "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.res"
+	COMPILER : cl
+	COMPFLAGS : /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT
+	COMPDEFINES : /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0
+	MATLABMEX : 
+	OPTIMFLAGS : /O2 /Oy- /DNDEBUG
+	INCLUDE : -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing"  -I"C:\Program Files\MATLAB\R2015b\extern\include" -I"C:\Program Files\MATLAB\R2015b\simulink\include" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing" -I"C:\Program Files\MATLAB\R2015b\extern\include\win64"
+	DEBUGFLAGS : /Z7
+	LINKER : link
+	LINKFLAGS : /nologo /manifest delayimp.lib /delayload:mclmcrrt9_0.dll
+	LINKTYPE : 
+	LINKEXPORT : /DLL /def:"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.def"
+	LINKLIBS : mclxlmain.lib  /MACHINE:AMD64 /LIBPATH:"C:\Program Files\MATLAB\R2015b\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mclmcrrt.lib "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.res"
+	LINKDEBUGFLAGS : /debug /PDB:"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll.pdb"
+	LINKOPTIMFLAGS : 
+	OBJEXT : .obj
+	LDEXT : .dll
+	SETENV : set COMPILER=cl 
+				set COMPFLAGS=/c /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0  
+				set OPTIMFLAGS=/O2 /Oy- /DNDEBUG 
+				set DEBUGFLAGS=/Z7 
+				set LINKER=link 
+				set LINKFLAGS=/nologo /manifest delayimp.lib /delayload:mclmcrrt9_0.dll /export:%ENTRYPOINT%  mclxlmain.lib  /MACHINE:AMD64 /LIBPATH:"C:\Program Files\MATLAB\R2015b\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mclmcrrt.lib "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.res" /DLL /def:"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.def" 
+				set LINKDEBUGFLAGS=/debug /PDB:"%OUTDIR%%MEX_NAME%.dll.pdb" 
+				set NAME_OUTPUT=/out:"%OUTDIR%%MEX_NAME%%MEX_EXT%"
+	SDKROOT : C:\Program Files\Microsoft SDKs\Windows\v7.1\
+	VSROOT : C:\Program Files (x86)\Microsoft Visual Studio 10.0
+	MATLABROOT : C:\Program Files\MATLAB\R2015b
+	ARCH : win64
+	CMDLINE000 : copy "C:\Program Files\MATLAB\R2015b\extern\include\win64\mwcomutil.tlb" .
+	CMDLINE001 : midl /nologo /win64 -I"C:\Program Files\MATLAB\R2015b\extern\include" /D NDEBUG /out "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing" mwcomtypes.idl
+	CMDLINE002 : midl /nologo /win64 -I"C:\Program Files\MATLAB\R2015b\extern\include" /D NDEBUG /out "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing" "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_idl.idl"
+	CMDLINE150 : rc /fo "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.res" "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.rc"
+	CMDLINE275 : "C:\Program Files\MATLAB\R2015b\runtime\win64\mwregsvr.exe" /useronly "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll"
+	OUTDIR : C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing
+	COMPINCLUDE : -I"C:\Program Files\MATLAB\R2015b\extern\include"
+	USERONLY : 
+	SRC : "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\Class1_com.cpp";"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_dll.cpp"
+	OBJ : C:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\Class1_com.obj;C:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\anova_custom_dll.obj
+	OBJS : C:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\Class1_com.obj C:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\anova_custom_dll.obj 
+	SRCROOT : C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\Class1_com
+	DEF : C:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\anova_custom_1_0.def
+	EXP : "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.exp"
+	LIB : "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.lib"
+	EXE : "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll"
+	ILK : "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.ilk"
+	MANIFEST : "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll.manifest"
+	TEMPNAME : C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0
+	EXEDIR : C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\
+	EXENAME : anova_custom_1_0
+	COMIDL : C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_idl.idl
+	DEFFILE : C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.def
+	RCFILE : C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.rc
+	RESFILE : C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.res
+	OPTIM : /O2 /Oy- /DNDEBUG
+	LINKOPTIM : 
+	CMDLINE100_0 : cl /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT /O2 /Oy- /DNDEBUG /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0 -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing"  -I"C:\Program Files\MATLAB\R2015b\extern\include" -I"C:\Program Files\MATLAB\R2015b\simulink\include" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing" -I"C:\Program Files\MATLAB\R2015b\extern\include\win64" -I"C:\Program Files\MATLAB\R2015b\extern\include" "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\Class1_com.cpp" /FoC:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\Class1_com.obj
+	CMDLINE100_1 : cl /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT /O2 /Oy- /DNDEBUG /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0 -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing"  -I"C:\Program Files\MATLAB\R2015b\extern\include" -I"C:\Program Files\MATLAB\R2015b\simulink\include" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing" -I"C:\Program Files\MATLAB\R2015b\extern\include\win64" -I"C:\Program Files\MATLAB\R2015b\extern\include" "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_dll.cpp" /FoC:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\anova_custom_dll.obj
+-------------------------------------------------------------------
+Building with 'Microsoft Windows SDK 7.1 (C++)'.
+copy "C:\Program Files\MATLAB\R2015b\extern\include\win64\mwcomutil.tlb" .
+        1 file(s) copied.
+
+midl /nologo /win64 -I"C:\Program Files\MATLAB\R2015b\extern\include" /D NDEBUG /out "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing" mwcomtypes.idl
+mwcomtypes.idl
+oaidl.idl
+objidl.idl
+unknwn.idl
+wtypes.idl
+basetsd.h
+guiddef.h
+ocidl.idl
+oleidl.idl
+servprov.idl
+urlmon.idl
+msxml.idl
+oaidl.acf
+ocidl.acf
+
+64 bit Processing C:\Program Files\MATLAB\R2015b\extern\include\mwcomtypes.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oaidl.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\objidl.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\unknwn.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\wtypes.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\basetsd.h
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\guiddef.h
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\ocidl.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oleidl.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\servprov.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\urlmon.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\msxml.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oaidl.acf
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\ocidl.acf
+
+midl /nologo /win64 -I"C:\Program Files\MATLAB\R2015b\extern\include" /D NDEBUG /out "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing" "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_idl.idl"
+anova_custom_idl.idl
+oaidl.idl
+objidl.idl
+unknwn.idl
+wtypes.idl
+basetsd.h
+guiddef.h
+ocidl.idl
+oleidl.idl
+servprov.idl
+urlmon.idl
+msxml.idl
+mwcomtypes.idl
+oaidl.acf
+ocidl.acf
+
+64 bit Processing C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_idl.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oaidl.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\objidl.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\unknwn.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\wtypes.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\basetsd.h
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\guiddef.h
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\ocidl.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oleidl.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\servprov.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\urlmon.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\msxml.idl
+64 bit Processing C:\Program Files\MATLAB\R2015b\extern\include\mwcomtypes.idl
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oaidl.acf
+64 bit Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\ocidl.acf
+
+cl /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT /O2 /Oy- /DNDEBUG /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0 -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing"  -I"C:\Program Files\MATLAB\R2015b\extern\include" -I"C:\Program Files\MATLAB\R2015b\simulink\include" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing" -I"C:\Program Files\MATLAB\R2015b\extern\include\win64" -I"C:\Program Files\MATLAB\R2015b\extern\include" "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\Class1_com.cpp" /FoC:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\Class1_com.obj
+Class1_com.cpp
+
+cl /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT /O2 /Oy- /DNDEBUG /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0 -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing"  -I"C:\Program Files\MATLAB\R2015b\extern\include" -I"C:\Program Files\MATLAB\R2015b\simulink\include" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing" -I"C:\Program Files\MATLAB\R2015b\extern\include\win64" -I"C:\Program Files\MATLAB\R2015b\extern\include" "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_dll.cpp" /FoC:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\anova_custom_dll.obj
+anova_custom_dll.cpp
+
+rc /fo "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.res" "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.rc"
+Microsoft (R) Windows (R) Resource Compiler Version 6.1.7600.16385
+
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+link /nologo /manifest delayimp.lib /delayload:mclmcrrt9_0.dll   /DLL /def:"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.def" C:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\Class1_com.obj C:\Users\COLESW~1\AppData\Local\Temp\mex_247882027414496_9360\anova_custom_dll.obj  mclxlmain.lib  /MACHINE:AMD64 /LIBPATH:"C:\Program Files\MATLAB\R2015b\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mclmcrrt.lib "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.res" /out:"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll"
+   Creating library C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.lib and object C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.exp
+
+mt -outputresource:"C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll";2 -manifest "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll.manifest"
+Microsoft (R) Manifest Tool version 6.1.7716.0
+
+Copyright (c) Microsoft Corporation 2009. 
+
+All rights reserved.
+
+
+"C:\Program Files\MATLAB\R2015b\runtime\win64\mwregsvr.exe" /useronly "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll"
+DllRegisterServer in C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll succeeded
+
+del "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom_1_0.dll.manifest" mwcomutil.tlb "C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_testing\anova_custom.res"
+Packaging...
+Creating the bundle...
+Web based installer created at C:\Users\Cole Swackhamer\Documents\MATLAB\anova_custom\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 55 seconds.
